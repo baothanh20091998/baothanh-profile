@@ -38,6 +38,9 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+  --tw-gradient-from: #fa5252;
+  --tw-gradient-to: #dd2476;
+  --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
 }
 
 @media (prefers-color-scheme: dark) {

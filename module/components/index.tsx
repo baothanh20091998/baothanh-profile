@@ -1,0 +1,5 @@
+export { default as Button } from "./Button"
+export { default as SEO } from "./SEO"
+export { default as Header } from "./Header"
+export { default as WrapperPage } from "./Template"
+export { default as Title } from "./Title"
