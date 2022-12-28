@@ -1,4 +1,4 @@
-import { Button, WrapperPage } from 'module/components'
+import { Button } from 'module/components'
 import Image from 'next/image'
 import React from 'react'
 import { Fade } from 'react-awesome-reveal'
@@ -50,10 +50,12 @@ export default function HomePage() {
           </div>
           <div className="w-48 my-4 mx-auto">
             <Button type="bordered" onPress={() => { }}>
-              <div className="flex justify-evenly items-center">
-                <DownloadOutlined />
-                <span className="">Download CV</span>
-              </div>
+              <a className="hover:text-inherit" href="/Hoang_Le_Bao_Thanh_-_Front_end_Developer.pdf" download target="_blank">
+                <div className="flex justify-evenly items-center">
+                  <DownloadOutlined />
+                  <span className="">Download CV</span>
+                </div>
+              </a>
             </Button>
           </div>
         </div>
